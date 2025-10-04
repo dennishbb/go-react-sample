@@ -1,0 +1,32 @@
+# Go
+/app
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+coverage.*
+
+# Air tmp
+server/tmp/
+
+# Node / Vite
+web/node_modules/
+web/dist/
+web/.vite/
+web/.cache/
+web/.eslintcache
+
+# Env / secrets
+*.env
+*.env.*
+web/.env
+web/.env.*
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
